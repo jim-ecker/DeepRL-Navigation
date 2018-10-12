@@ -1,5 +1,4 @@
 *.pth
 *.log
-environments/
 __pycache__/
 
