@@ -2,8 +2,322 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb741f9f-afc0-45ab-90d7-7c88df6efef6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Navigation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environments/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navigation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana.x86" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana.x86" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana.x86_64" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana.x86_64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.caw" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.caw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.ecm" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.ecm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.iws.sse" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.iws.sse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.rgb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.rgb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.rsc.sse" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.rsc.sse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.vis" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.vis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/Google.Protobuf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/Google.Protobuf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/Grpc.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/Grpc.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/Mono.Posix.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/Mono.Posix.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/Mono.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/Mono.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/System.Configuration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/System.Configuration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/System.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/System.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/System.Interactive.Async.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/System.Interactive.Async.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/System.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/System.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/System.Xml.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/System.Xml.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/System.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AIModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AIModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AIModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ARModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ARModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ARModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ARModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AccessibilityModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AccessibilityModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AccessibilityModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AccessibilityModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AnimationModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AnimationModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AnimationModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AnimationModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AssetBundleModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AssetBundleModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AssetBundleModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AssetBundleModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AudioModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AudioModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.AudioModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.AudioModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ClothModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ClothModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ClothModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ClothModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ClusterInputModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ClusterInputModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ClusterInputModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ClusterInputModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ClusterRendererModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ClusterRendererModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ClusterRendererModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ClusterRendererModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.CoreModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.CoreModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.CoreModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.CoreModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.CrashReportingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.CrashReportingModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.CrashReportingModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.CrashReportingModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.DirectorModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.DirectorModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.DirectorModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.DirectorModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.GameCenterModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.GameCenterModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.GameCenterModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.GameCenterModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.GridModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.GridModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.GridModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.GridModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.IMGUIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.IMGUIModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.IMGUIModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.IMGUIModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ImageConversionModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ImageConversionModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ImageConversionModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ImageConversionModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.InputModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.InputModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.InputModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.InputModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.JSONSerializeModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.JSONSerializeModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.JSONSerializeModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.JSONSerializeModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.Networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.Networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ParticleSystemModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ParticleSystemModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ParticleSystemModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ParticleSystemModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ParticlesLegacyModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ParticlesLegacyModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ParticlesLegacyModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ParticlesLegacyModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.PerformanceReportingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.PerformanceReportingModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.PerformanceReportingModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.PerformanceReportingModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.Physics2DModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.Physics2DModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.Physics2DModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.Physics2DModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.PhysicsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.PhysicsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.PhysicsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.PhysicsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ScreenCaptureModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ScreenCaptureModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.ScreenCaptureModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.ScreenCaptureModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.SharedInternalsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.SharedInternalsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.SharedInternalsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.SharedInternalsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.SpatialTracking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.SpatialTracking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.SpriteMaskModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.SpriteMaskModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.SpriteMaskModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.SpriteMaskModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.SpriteShapeModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.SpriteShapeModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.SpriteShapeModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.SpriteShapeModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.StandardEvents.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.StandardEvents.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.StyleSheetsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.StyleSheetsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.StyleSheetsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.StyleSheetsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.TerrainModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.TerrainModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.TerrainModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.TerrainModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.TextRenderingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.TextRenderingModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.TextRenderingModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.TextRenderingModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.TilemapModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.TilemapModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.TilemapModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.TilemapModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UIElementsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UIElementsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UIElementsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UIElementsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UIModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UIModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UIModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UNETModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UNETModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UNETModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UNETModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityConnectModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityConnectModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityConnectModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityConnectModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.VRModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.VRModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.VRModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.VRModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.VehiclesModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.VehiclesModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.VehiclesModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.VehiclesModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.VideoModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.VideoModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.VideoModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.VideoModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.WebModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.WebModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.WebModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.WebModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.WindModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.WindModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.WindModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.WindModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/UnityEngine.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/UnityEngine.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Managed/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Managed/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/2.0/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.0/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/4.5/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/browscap.ini" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/browscap.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/x86/libMonoPosixHelper.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/x86/libMonoPosixHelper.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/x86/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/x86/libmonobdwgc-2.0.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Plugins/x86/ScreenSelector.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Plugins/x86/ScreenSelector.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Plugins/x86/libgrpc_csharp_ext.x86.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Plugins/x86/libgrpc_csharp_ext.x86.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Plugins/x86_64/ScreenSelector.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Plugins/x86_64/ScreenSelector.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Plugins/x86_64/libgrpc_csharp_ext.x64.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Plugins/x86_64/libgrpc_csharp_ext.x64.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Resources/UnityPlayer.png" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Resources/UnityPlayer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Resources/unity default resources" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Resources/unity default resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/Resources/unity_builtin_extra" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/Resources/unity_builtin_extra" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux/Banana_Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux/Banana_Data/sharedassets0.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana.x86" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana.x86" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana.x86_64" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana.x86_64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.caw" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.caw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.ecm" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.ecm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.iws.sse" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.iws.sse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.rgb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.rgb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.rsc.sse" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.rsc.sse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.vis" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/GI/level0/d8/d879d8f84dad702b137146d9028aad2c.vis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/Google.Protobuf.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/Google.Protobuf.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/Grpc.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/Grpc.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/Mono.Posix.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/Mono.Posix.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/Mono.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/Mono.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/System.Configuration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/System.Configuration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/System.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/System.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/System.Interactive.Async.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/System.Interactive.Async.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/System.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/System.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/System.Xml.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/System.Xml.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/System.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AIModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AIModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AIModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ARModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ARModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ARModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ARModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AccessibilityModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AccessibilityModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AccessibilityModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AccessibilityModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AnimationModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AnimationModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AnimationModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AnimationModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AssetBundleModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AssetBundleModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AssetBundleModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AssetBundleModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AudioModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AudioModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AudioModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.AudioModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClothModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClothModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClothModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClothModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClusterInputModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClusterInputModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClusterInputModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClusterInputModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClusterRendererModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClusterRendererModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClusterRendererModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ClusterRendererModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.CoreModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.CoreModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.CoreModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.CoreModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.CrashReportingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.CrashReportingModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.CrashReportingModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.CrashReportingModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.DirectorModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.DirectorModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.DirectorModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.DirectorModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.GameCenterModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.GameCenterModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.GameCenterModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.GameCenterModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.GridModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.GridModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.GridModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.GridModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.IMGUIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.IMGUIModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.IMGUIModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.IMGUIModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ImageConversionModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ImageConversionModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ImageConversionModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ImageConversionModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.InputModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.InputModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.InputModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.InputModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.JSONSerializeModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.JSONSerializeModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.JSONSerializeModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.JSONSerializeModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.Networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.Networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ParticleSystemModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ParticleSystemModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ParticleSystemModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ParticleSystemModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ParticlesLegacyModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ParticlesLegacyModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ParticlesLegacyModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ParticlesLegacyModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.PerformanceReportingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.PerformanceReportingModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.PerformanceReportingModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.PerformanceReportingModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.Physics2DModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.Physics2DModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.Physics2DModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.Physics2DModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.PhysicsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.PhysicsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.PhysicsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.PhysicsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ScreenCaptureModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ScreenCaptureModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ScreenCaptureModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.ScreenCaptureModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SharedInternalsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SharedInternalsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SharedInternalsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SharedInternalsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpatialTracking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpatialTracking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpriteMaskModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpriteMaskModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpriteMaskModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpriteMaskModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpriteShapeModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpriteShapeModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpriteShapeModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.SpriteShapeModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.StandardEvents.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.StandardEvents.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.StyleSheetsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.StyleSheetsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.StyleSheetsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.StyleSheetsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TerrainModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TerrainModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TerrainModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TerrainModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TerrainPhysicsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TextRenderingModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TextRenderingModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TextRenderingModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TextRenderingModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TilemapModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TilemapModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TilemapModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.TilemapModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UIElementsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UIElementsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UIElementsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UIElementsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UIModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UIModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UIModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UIModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UNETModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UNETModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UNETModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UNETModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityAnalyticsModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityConnectModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityConnectModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityConnectModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityConnectModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VRModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VRModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VRModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VRModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VehiclesModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VehiclesModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VehiclesModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VehiclesModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VideoModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VideoModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VideoModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.VideoModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.WebModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.WebModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.WebModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.WebModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.WindModule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.WindModule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.WindModule.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.WindModule.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/UnityEngine.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Managed/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Managed/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/2.0/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.0/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/4.5/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/browscap.ini" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/browscap.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/x86/libMonoPosixHelper.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/x86/libMonoPosixHelper.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/x86/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/x86/libmonobdwgc-2.0.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Plugins/x86/libgrpc_csharp_ext.x86.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Plugins/x86/libgrpc_csharp_ext.x86.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Plugins/x86_64/libgrpc_csharp_ext.x64.so" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Plugins/x86_64/libgrpc_csharp_ext.x64.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Resources/UnityPlayer.png" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Resources/UnityPlayer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Resources/unity default resources" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Resources/unity default resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/Resources/unity_builtin_extra" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/Resources/unity_builtin_extra" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banana_Linux_NoVis/Banana_Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/environments/Banana_Linux_NoVis/Banana_Data/sharedassets0.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Navigation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dqn_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unity-environment.log" beforeDir="false" afterPath="$PROJECT_DIR$/unity-environment.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +327,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DeepRL_Navigation$Navigation.coverage" NAME="Navigation Coverage Results" MODIFIED="1539293924741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepRL_Navigation$Navigation.coverage" NAME="Navigation Coverage Results" MODIFIED="1539366321911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1520674677">
@@ -21,27 +335,32 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="log" value="1" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4461" />
+          <entry key="dummy" value="1" />
+          <entry key="py" value="8733" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4461" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="8733" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -49,18 +368,70 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Navigation.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/navigation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="140" column="58" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="58" />
+            <state relative-caret-position="590">
+              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
-                <marker date="1539293924721" expanded="true" signature="3820:4040" ph="..." />
-                <marker date="1539293924721" expanded="true" signature="4075:4084" ph="..." />
-                <marker date="1539293924721" expanded="true" signature="4075:4720" ph="..." />
-                <marker date="1539293924721" expanded="true" signature="4802:4808" ph="..." />
+                <element signature="e#1#19#0" expanded="true" />
+                <marker date="1539377895862" expanded="true" signature="4149:4349" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utilities.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="709">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1539378005247" expanded="true" signature="1865:2293" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/memory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unity-environment.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,13 +439,27 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/SegmentTree.py" />
+        <option value="$PROJECT_DIR$/memory.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/utilities.py" />
         <option value="$PROJECT_DIR$/Navigation.py" />
+        <option value="$PROJECT_DIR$/dqn_agent.py" />
+        <option value="$PROJECT_DIR$/navigation.py" />
+        <option value="$PROJECT_DIR$/agent.py" />
       </list>
     </option>
   </component>
@@ -85,16 +470,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="32" />
-    <option name="width" value="2560" />
-    <option name="height" value="1408" />
+    <option name="x" value="10" />
+    <option name="y" value="183" />
+    <option name="width" value="2550" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,6 +491,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -114,6 +500,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/environments" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,7 +532,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Navigation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/navigation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,28 +562,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="2560" height="1408" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08300238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32967892" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06029757" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" visible="true" weight="0.21803018" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.21803018" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,17 +594,66 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Navigation.py">
+    <entry file="file://$PROJECT_DIR$/SegmentTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="140" column="58" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="58" />
+        <state>
+          <caret lean-forward="true" selection-end-line="135" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <marker date="1539293924721" expanded="true" signature="3820:4040" ph="..." />
-            <marker date="1539293924721" expanded="true" signature="4075:4084" ph="..." />
-            <marker date="1539293924721" expanded="true" signature="4075:4720" ph="..." />
-            <marker date="1539293924721" expanded="true" signature="4802:4808" ph="..." />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+            <marker date="1539377895862" expanded="true" signature="4149:4349" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1539378005247" expanded="true" signature="1865:2293" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unity-environment.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
