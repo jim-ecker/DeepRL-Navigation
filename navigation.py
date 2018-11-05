@@ -84,7 +84,12 @@ def dqn(env, brain_name, n_episodes=2000, eps_start=1.0, eps_end=0.01, eps_decay
     is_flag=True,
     help="Use prioritized replay memory"
 )
-def run(novis, env_dir, env_file, n_episodes, seed, prioritized):
+@click.option(
+    "--cpu",
+    is_flag=True,
+    help="Use CPU instead of GPU"
+)
+def run(novis, env_dir, env_file, n_episodes, seed, prioritized, cpu):
     if novis:
         env_dir = "{}_NoVis".format(env_dir)
 
@@ -110,7 +115,7 @@ def run(novis, env_dir, env_file, n_episodes, seed, prioritized):
     state_size = len(state)
     # print('States have length:', state_size)
 
-    report = Report(DQNAgent(state_size=state_size, action_size=action_size, seed=seed, prioritized=prioritized)).run(dqn, env=env, brain_name=brain_name, n_episodes=n_episodes)
+    report = Report(DQNAgent(state_size=state_size, action_size=action_size, seed=seed, prioritized=prioritized, cpu=cpu)).run(dqn, env=env, brain_name=brain_name, n_episodes=n_episodes)
     print(report)
 
 

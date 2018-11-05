@@ -1,29 +1,17 @@
 import numpy as np
 import random
-
-from model import QNetwork
-
 import torch
-from torch.autograd import Variable
 import torch.nn.functional as F
 import torch.optim as optim
+from torch.autograd import Variable
+from model import QNetwork
+from memory import ReplayBuffer
 
-from memory import ReplayBuffer, PrioritizedReplayBuffer
-
-BUFFER_SIZE  = int(1e5)  # replay buffer size
-BATCH_SIZE   = 64        # minibatch size
-GAMMA        = 0.99      # discount factor
-TAU          = 1e-3      # for soft update of target parameters
-LR           = 5e-4      # learning rate
-UPDATE_EVERY = 4         # how often to update the network
-
-# device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
-device = torch.device("cpu")
 
 class DQNAgent:
     """Interacts with and learns from the environment."""
 
-    def __init__(self, state_size, action_size, seed, prioritized=False):
+    def __init__(self, state_size, action_size, seed, buffer_size=int(1e5), batch_size=64, gamma=0.99, tau=1e-3, lr=5e-4, update_every=4, prioritized=False, cpu=False):
         """Initialize an Agent object.
 
         Params
@@ -32,25 +20,31 @@ class DQNAgent:
             action_size (int): dimension of each action
             seed (int): random seed
         """
-        self.state_size  = state_size
-        self.action_size = action_size
-        self.seedval     = seed
-        self.seed        = random.seed(seed)
-
-        # Q-Network
-        self.qnetwork_local  = QNetwork(state_size, action_size, seed).to(device)
-        self.qnetwork_local.apply(self.weights_init)
-        self.qnetwork_target = QNetwork(state_size, action_size, seed).to(device)
-        self.optimizer       = optim.Adam(self.qnetwork_local.parameters(), lr=LR)
-        self.prioritized     = prioritized
-        if self.prioritized:
-            self.memory = PrioritizedReplayBuffer(action_size, BUFFER_SIZE, BATCH_SIZE, seed, device)
-        # Replay memory
+        if cpu:
+            self.device      = torch.device("cpu")
         else:
-            self.memory = ReplayBuffer(action_size, BUFFER_SIZE, BATCH_SIZE, seed, device)
-
-        # Initialize time step (for updating every UPDATE_EVERY steps)
-        self.t_step = 0
+            self.device      = torch.device("cuda:0")
+            
+        self.state_size      = state_size
+        self.action_size     = action_size
+        self.seedval         = seed
+        self.seed            = random.seed(seed)
+        self.buffer_size     = buffer_size
+        self.batch_size      = batch_size
+        self.gamma           = gamma
+        self.tau             = tau
+        self.lr              = lr
+        self.update_every    = update_every
+        
+        self.qnetwork_local  = QNetwork(state_size, action_size, seed).to(self.device)
+        self.qnetwork_local.apply(self.weights_init)
+        
+        self.qnetwork_target = QNetwork(state_size, action_size, seed).to(self.device)
+        
+        self.optimizer       = optim.Adam(self.qnetwork_local.parameters(), lr=self.lr)
+        self.prioritized     = prioritized
+        self.memory          = ReplayBuffer(action_size, self.buffer_size, self.batch_size, seed, self.device)
+        self.t_step          = 0
 
 
     # weight xavier initialize
@@ -71,31 +65,17 @@ class DQNAgent:
         return tabulate(pd.DataFrame.from_records(agent_table), tablefmt='fancy_grid', showindex='never')
 
     def step(self, state, action, reward, next_state, done):
-        # Learn every UPDATE_EVERY time steps.
-        self.t_step = (self.t_step + 1) % UPDATE_EVERY
+        # Learn every self.update_every time steps.
+        self.t_step = (self.t_step + 1) % self.update_every
         if self.t_step == 0:
             # If enough samples are available in memory, get random subset and learn
-            if len(self.memory) > BATCH_SIZE:
-                indexes = None
-                weight  = None
-                if self.prioritized:
-                    experiences, indexes, weight = self.memory.sample(BATCH_SIZE)
-                else:
-                    experiences = self.memory.sample()
+            if len(self.memory) > self.batch_size:
+                experiences = self.memory.sample()
 
-                self.learn(experiences, GAMMA, indexes, weight)
+                self.learn(experiences)
 
         # Save experience in replay memory
-        if self.prioritized:
-            target = self.qnetwork_local(Variable(torch.FloatTensor(state))).data
-            curr_val = target[0][action]
-            if done:
-                target[0][action] = reward
-            else:
-                target[0][action] = reward + GAMMA * torch.max(self.qnetwork_target(Variable(torch.FloatTensor(next_state))).data)
-            self.memory.add(state, action, reward, next_state, done, abs(curr_val - target[0][action]))
-        else:
-            self.memory.add(state, action, reward, next_state, done, None)
+        self.memory.add(state, action, reward, next_state, done)
 
     def act(self, state, eps=0.):
         """Returns actions for given state as per current policy.
@@ -105,20 +85,20 @@ class DQNAgent:
             state (array_like): current state
             eps (float): epsilon, for epsilon-greedy action selection
         """
-        state = torch.from_numpy(state).float().unsqueeze(0).to(device)
+        state = torch.from_numpy(state).float().unsqueeze(0).to(self.device)
         self.qnetwork_local.eval()
         with torch.no_grad():
             action_values = self.qnetwork_local(state)
+
         self.qnetwork_local.train()
 
         # Epsilon-greedy action selection
-        if random.random() > eps:
-            # return np.argmax(action_values.cpu().data.numpy())
-            return np.argmax(action_values.cpu().data.numpy())
+        if np.random.uniform() > eps:
+            return torch.argmax(action_values[0]).item()
         else:
-            return random.choice(np.arange(self.action_size))
+            return np.random.randint(0, self.action_size)
 
-    def learn(self, experiences, gamma, indexes, weight):
+    def learn(self, experiences):
         """Update value parameters using given batch of experience tuples.
 
         Params
@@ -126,22 +106,14 @@ class DQNAgent:
             experiences (Tuple[torch.Variable]): tuple of (s, a, r, s', done) tuples
             gamma (float): discount factor
         """
-        # if self.prioritized:
-        #     states, actions, rewards, next_states, dones, weights, indexes = experiences
-        # else:
         states, actions, rewards, next_states, dones = experiences
 
         ## TODO: compute and minimize the loss
         "*** YOUR CODE HERE ***"
         Q_target_next = self.qnetwork_target(next_states).detach().max(1)[0].unsqueeze(1)
-        Q_target      = rewards + (gamma * Q_target_next * (1 - dones))
+        Q_target      = rewards + (self.gamma * Q_target_next * (1 - dones))
 
         Q_E = self.qnetwork_local(states).gather(1, actions)
-
-        if self.prioritized:
-            errors = torch.abs(Q_E, Q_target).data.numpy()
-            for i in range(BATCH_SIZE):
-                self.memory.update(indexes[i], errors[i])
 
         loss = F.mse_loss(Q_E, Q_target)
 
@@ -150,7 +122,7 @@ class DQNAgent:
         self.optimizer.step()
 
         # ------------------- update target network ------------------- #
-        self.soft_update(self.qnetwork_local, self.qnetwork_target, TAU)
+        self.soft_update(self.qnetwork_local, self.qnetwork_target, self.tau)
         return abs(Q_E - Q_target)
 
     def soft_update(self, local_model, target_model, tau):
