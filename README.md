@@ -54,6 +54,8 @@ python navigation.py {options}
   --env-file | Set file for environment
   --n-episodes | Set number of episodes to run agent
   --seed | Set random seed for reproducibility
-  --prioritized | **Not Yet Implemented** Use Prioritized Replay Memory
   --cpu | Use CPU instead of GPU
   --help | Show help message
+  ~~--prioritized~~ | ~~**Not Yet Implemented** Use Prioritized Replay Memory~~
+  ~~--double~~ | ~~**Not Yet Implemented** Use double deep q network~~
+  ~~--dueling~~ | ~~**Not Yet Implemented** Use dueling deep q networks~~
