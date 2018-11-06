@@ -89,6 +89,16 @@ def dqn(env, brain_name, n_episodes=2000, eps_start=1.0, eps_end=0.01, eps_decay
     is_flag=True,
     help="Use CPU instead of GPU"
 )
+@click.option(
+    "--double",
+    is_flag=True,
+    help="Use double deep q network"
+)
+@click.option(
+    "--dueling",
+    is_flag=True,
+    help="Use dueling deep q networks"
+)
 def run(novis, env_dir, env_file, n_episodes, seed, prioritized, cpu):
     if novis:
         env_dir = "{}_NoVis".format(env_dir)

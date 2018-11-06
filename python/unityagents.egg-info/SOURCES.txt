@@ -1,4 +1,5 @@
 README.md
+setup.py
 communicator_objects/__init__.py
 communicator_objects/agent_action_proto_pb2.py
 communicator_objects/agent_info_proto_pb2.py

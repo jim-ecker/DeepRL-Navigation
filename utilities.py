@@ -19,8 +19,9 @@ class Report:
                 report.append((key, val))
         return pd.DataFrame.from_items(report)
 
-    def add_plot(self, data, labels=('Episode', 'Score')):
+    def add_plot(self, data, labels=('Episode', 'Score'), rolling_window=100):
         import matplotlib.pyplot as plt
+        import pandas as pd
         # plot the scores
         fig = plt.figure()
         ax = fig.add_subplot(111)
@@ -28,7 +29,11 @@ class Report:
             x_label, y_label = [label for label in labels]
             plt.xlabel(x_label)
             plt.ylabel(y_label)
-        plt.plot(np.arange(1, len(data) + 1, step=1), data)
+        plt.plot([13 for x in range(0, len(data) + 1)], label='Goal')
+        plt.plot(np.arange(1, len(data) + 1, step=1), data, label='Episode')
+        rolling_mean = pd.Series(data).rolling(rolling_window).mean()
+        plt.plot(rolling_mean, label='Rolling 100 Episode Average')
+        plt.legend()
         self.plots.append(plt)
 
     def show_plots(self):

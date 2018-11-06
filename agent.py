@@ -94,7 +94,8 @@ class DQNAgent:
 
         # Epsilon-greedy action selection
         if np.random.uniform() > eps:
-            return torch.argmax(action_values[0]).item()
+            # return torch.argmax(action_values[0]).item()
+            return np.argmax(action_values.cpu().data.numpy())
         else:
             return np.random.randint(0, self.action_size)
 
