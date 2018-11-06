@@ -1,11 +1,13 @@
 # DeepRL-Navigation
 
+![Banana World Gif](https://github.com/jim-ecker/DeepRL-Navigation/raw/master/images/bananaworld.gif)
 ## Banana World
 Agent must collect bananas in a large, square room.
 #### Task Type
 Episodic
 #### Rewards
 __+1__ for each yellow banana
+
 __-1__ for each blue banana
 #### Goal
  
