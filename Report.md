@@ -11,6 +11,19 @@ An implementation of the Deep Q Learning neural network introduced by Deepmind i
 
 The **Deep Q Network (DQN)** implemented in this repo is a multilayer Fully Connected neural network that approximates the Q-function for the state-space over which the agent is performing some set of actions using the agent's velocity and ray data for objects in its forward path as input.
 
+![DQN Architecture](images/architecture.png)
+
+Selected Hyperparameters:
+
+Name | Value | Description
+-----|-------|-------------
+buffer_size | 100,000 | Amount of experience held in ReplayBuffer
+batch_size | 64 | Amount of experiences sampled from ReplyBuffer
+gamma | 0.99 | Discount rate for Q function
+tau | 0.001 | Interpolation parameter for updating target network
+lr | 0.0005 | Learning rate for back propogation
+update_every | 4 | Interval in which we update target network
+
 <DQN network diagram here>
 
 The DQN achieves stability via two main features:
@@ -43,3 +56,11 @@ The DQN achieves stability via two main features:
 
 #### Performance
 
+![DQN Training](images/Training.png)
+
+My implementation was able to solve the Banana environment in **462 episodes**, with a wall time of **10 minutes, 30 seconds**
+
+#### Future Considerations
+I would like to implement Double DQN, Prioritized Replay, and Dueling DQN to improve performance. 
+
+I attempted to implement Double DQN with Prioritized Replay but my implementation yielded a much slower solution to the environment than the submitted implementation.
